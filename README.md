@@ -1,0 +1,1 @@
+for ip in `whois -h whois.radb.net '!gAS32934' | grep /`; do echo $ip; done ;
